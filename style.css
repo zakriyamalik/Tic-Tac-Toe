@@ -1,0 +1,116 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: #fefae0;
+    text-align: center;
+    
+}
+main h1
+{
+ padding-top: 30px;
+ font-family: "Ubuntu", sans-serif;
+ font-size: 6vmin;
+ color: #023047;
+ margin-left: 19rem;
+}
+.container
+{
+    height: 70%;  
+   padding-left: 350px;
+   padding-top: 30px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+.game
+{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:2vmin;
+}
+.box
+{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: #a8dadc;
+    color: #023047;
+    font-size: 8vmin;
+    font-family: "Varela Round", sans-serif;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1rem rgba(0,0,0,1);
+}
+
+button:hover
+{
+    border-radius: 4px;
+    background-color: #023047;
+    color:  #fefae0;
+
+}
+
+#resetButtonId
+{
+    height: 8vmin;
+    width: 22vmin;
+    background-color:   #023047;
+    color:  #fefae0;
+    font-size: 4vmin;
+    font-family: "Varela Round", sans-serif;
+    border-radius: 1rem;
+    border:none;
+    margin-left: 22rem;
+    margin-top: 2rem;
+}
+
+
+#newButtonId
+{
+    height: 8vmin;
+    width: 22vmin;
+    background-color:  #a8dadc;
+    color: #023047;
+    font-size: 4vmin;
+    font-family: "Varela Round", sans-serif;
+    border-radius: 1rem;
+    border:none;
+    margin-left: 70px;
+    margin-top: 2rem;
+    
+}
+#newButtonId:enabled {
+    background-color: #023047;
+    color: #fefae0; /* Darker green on hover */
+   
+  }
+
+#msg
+{
+    color: #023047;
+    font-size: 4vmin;
+    font-family: "Varela Round", sans-serif;
+    margin-top: 3rem;
+    margin-left: 17rem;
+}
+
+.msg-container
+{
+    height: 10vmin;
+}
+
+
+.hide
+{
+    display: none;
+}
+
+
